@@ -1,0 +1,16 @@
+{
+    "name": "Word Stress Highlighter",
+    "version": "1.0",
+    "description": "Highlights a text from current website based on user's selection.",
+    "manifest_version": 2,
+    "author": "Lukas Snider",
+    "browser_action": {
+        "default_icon": "tab-icon.png",
+        "default_title": "Word Stress Highlighter",
+        "default_popup": "popup.html"
+    },
+    "chrome_url_overrides": {
+        "newtab": "newtab.html"
+    },
+    "permissions": ["activeTab"]
+}
